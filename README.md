@@ -10,12 +10,12 @@ Being a Network Engineer, I can tell you—no matter what fancy title you’ve g
 <br />
 <br />
 **2 -:** Open that Xshell session file in note pad and search for '**Host=**' , Remove host IP.<br />
-Everything from start till **Host=** is first part, everything after the **=** sign is 2nd part.
+Everything from start till **Host=** (including Host=) is first part, everything after the **=** sign is 2nd part.
 ![image](images/2.png)<br />
 <br />
 <br />
 <br />
-**3 -:** Remove the IP and store first part (till 'Host=') in '**part1**' variable of the main.py file<br />
+**3 -:** Store first part (till 'Host=') in '**part1**' variable of the main.py file<br />
 <br />
 ![image](images/3.png)<br />
 <br />
