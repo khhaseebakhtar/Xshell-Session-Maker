@@ -1,4 +1,4 @@
-# Welcome to the Xshell Session Maker page that... blah blah blah .. <br />
+# Welcome to the Xshell Session Make page that... blah blah blah ... <br />
 Being a Network Engineer, I can tell you—no matter what fancy title you’ve got, setting up SSH sessions is always a pain in the A**. Especially when you’re switching laptops, changing jobs, or just trying to remember which device is which! But don’t worry, this tool’s got you covered. Just drop your device IPs into an Excel file, make sure your credentials work, and BAM! Instant Xshell sessions, no hassle.<br />
 
 (And yeah, I totally used ChatGPT to polish these lines because, just like my job, my English is aslo shi.. well, let’s just say it needed a firm smack on the back) why the hell are you still reading sll this , read the guidelines and go fix your crappy job!<br /><br />
@@ -34,4 +34,4 @@ Being a Network Engineer, I can tell you—no matter what fancy title you’ve g
 <br />
 <br />
 <br />
-I mean whats the point of having a public github repo if i'm not receiving <br />, Go ahead:  Drop your creative susidal ideas at **khwajahaseeb@yahoo.com** <br />
+And Thats it... You are done, GT FO... or maybe if ur life is also pointless stay here and keep reading or Go ahead and drop your creative susidal ideas at **khwajahaseeb@yahoo.com** <br />
