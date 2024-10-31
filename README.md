@@ -10,7 +10,7 @@ Being a Network Engineer, I can tell you—no matter what fancy title you’ve g
 <br />
 <br />
 **2 -:** Open that Xshell session file in note pad and search for '**Host=**' , Remove host IP.<br />
-Everything from start till **Host=** is part 1, everything after the **=** sign is part 2'
+Everything from start till **Host=** is first part, everything after the **=** sign is 2nd part.
 ![image](images/2.png)<br />
 <br />
 <br />
