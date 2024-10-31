@@ -1,6 +1,7 @@
 import glob
 import os
 import pandas as pd
+import openpyxl
 
 # Automatically detect the first Excel file in the project directory
 excel_files = glob.glob("*.xlsx")
@@ -27,10 +28,21 @@ else:
 if 'IP' not in df.columns:
     raise KeyError("The Excel file must contain an 'IP' column.")
 
+# handle the provided session file
+txt_files = glob.glob("*.txt")
+if not txt_files:
+    raise FileNotFoundError("No *.txt Session file found in the project directory.")
+file_path = txt_files[0]
+with open(file_path,'r') as session:
+    session_text = session.read()
 
 # Define the static parts of the file content
-part1 = r''' replace this text with first part '''
-part2 = r''' replace this text with 2nd part '''
+print (session_text)
+part1 = session_text[:session_text.find('Host=')+5]
+temp = session_text[session_text.find('Host=')+5:]
+part2 = temp[temp.find('\n')+1 :]
+
+
 # Generate and save .xsh files based on Excel data
 for _, row in df.iterrows():
     device_name = row['Hostname']
